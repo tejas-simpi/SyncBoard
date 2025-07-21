@@ -25,16 +25,18 @@
 - **Templating**: EJS
 
 ---
+## 🏗️ Structure
 
-## 🏢 Structure
-
+```
 SyncBoard/
-├── public/             # Static files (CSS, JS)
-├── views/              # EJS templates
-├── routes/             # Express routes
-├── models/             # Mongoose schemas
-├── socket/             # Socket.IO logic
-├── server.js           # Main app entry point
-├── .env                # Environment variables (not committed)
+├── public/       # Static files (CSS, JS)
+├── views/        # EJS templates
+├── routes/       # Express routes
+├── models/       # Mongoose schemas
+├── socket/       # Socket.IO logic
+├── server.js     # Main app entry point
+├── .env          # Environment variables (not committed)
 ├── .gitignore
 └── README.md
+```
+
